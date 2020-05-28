@@ -30,8 +30,8 @@ jobs:
       Solution_Path: DemoApp.sln
       #Test_Project_Path: MyWpfApp.Tests\MyWpfApp.Tests.csproj
       Wpf_Project_Path: DemoAppDesktop\DemoAppDesktop.csproj
-      Wap_Project_Directory: MainInstaller
-      Wap_Project_Name: MainInstaller.wapproj
+      Wap_Project_Directory: DemoInstaller
+      Wap_Project_Name: DemoInstaller.wapproj
 
     steps:
     - name: Checkout
